@@ -1,0 +1,216 @@
+@media (max-width: 1250px) { 
+
+    .home .headerContent h1{
+        margin-top: 17%;
+        width: 50%;
+    }
+    .home .headerContent .headerImage{
+        width: 45%;
+    }
+    
+
+    .home .community .iconParent  .icon h2{
+    font-size:3.5rem;
+    line-height: 4rem;
+    
+    }
+
+    .home .community .iconParent {
+        margin-top: 10%;
+    }
+
+    .home .winAtrip h2 {
+        line-height: 5rem;
+        margin-bottom: 20px;
+    }    
+}
+
+@media (max-width: 1080px) {    
+
+    .home .headerContent h1 {
+        width: 65%;
+        font-size: 7rem;
+    }
+    
+
+    .home .headerContent .headerImage {
+        width: 40%;
+        bottom: 0;        
+    }
+
+    .home .community .iconParent {
+        margin-top: 50px;
+    }
+
+    .home .community .iconParent  .icon h2{
+        font-size:3.5rem;
+        line-height: 4rem;
+        
+    }
+
+.home .winAtrip h2{
+    font-size: 3.5rem;
+}
+
+}
+
+@media (max-width:800px) {
+    .home header {        
+        background-size: auto;
+    }
+    
+    .home .headerContent h1 {
+        width: 90%;
+        margin: 0 auto ;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .home .headerContent .headerImage {
+        display: none;
+    }
+    .home .community {
+        margin-top: 50px;
+    }
+
+        .home .community .iconParent {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+
+        ul {
+            width:80%;
+
+
+            .icon {
+            flex-direction: column;
+            margin-top: 30px;
+            
+            h2{
+                margin: 15px 0 0 10px;
+            }
+
+
+            }
+            li p {
+                margin-top: 10%;
+                margin-left: 0;
+            }
+        }      
+        
+        .first li:first-child p{
+            margin-top: 70px;
+        }  
+    }
+
+    .home .newLocations{
+        flex-direction: column;
+        .locations,
+        .programs {      
+            margin: 5% 5vw;      
+            position: static;
+            width: 90vw;
+            text-align: center;
+
+            .locationsText,
+            .programsText{
+                margin:  auto;
+            }
+
+            .locationsImage,
+            .programsImage {
+                width: 50%;
+                position:static;
+                align-self: center;
+                margin: 50px auto;
+            }
+        } 
+        
+        .locations .locationsText{
+            margin-top: 0;
+        }
+    }
+
+.home .extraVocation .wrapper{
+    h2{
+        line-height: 7rem;
+        }
+}
+
+    .home .winAtrip .wrapper {
+        flex-direction: column;
+        align-items: center;
+        
+        .image {
+            width: 50%;
+            margin-bottom: 50px;
+        }
+
+        .text {
+            width: 100%;
+            text-align: center;
+        
+            .moreInfo{
+                margin: 0 auto;
+            }
+        
+        }
+        
+    }
+
+.home .threePictures{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+}
+
+@media (max-width: 500px) {
+    .home .headerContent h1 {
+        width: 70%;
+        font-size: 5rem;
+    }
+    .home .community {
+        margin-top: 0;
+
+        .iconParent {
+            margin-top: 20px;
+            .first li:first-child p{
+            margin-top: 25%;
+            } 
+        }
+    }
+
+    .home .newLocations{
+        align-items: center;
+        .locations, 
+        .programs {
+            width: 80%;
+        }
+            img {
+                display: none;
+            }
+    }
+
+    .home .threePictures {        
+        .wrapper ul{
+            margin: 0 auto;
+            flex-direction: column;
+            li {
+                width:80%;
+                margin-bottom: 15px;
+                padding: 0;
+                display:none;
+                
+            }
+            li:last-child {
+                display:inline-block;
+            }
+
+        }
+    }
+}
+
+
