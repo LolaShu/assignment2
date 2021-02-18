@@ -1,12 +1,20 @@
-const label = document.querySelector('label')
-const mobileMenu = label.nextElementSibling
+const menu ={};
+menu.init = function(){
+menu.label = document.querySelector('label')
+menu.mobileMenu = menu.label.nextElementSibling
 
-const showMenu = function(){
-    mobileMenu.classList.toggle('show');
+menu.showMenu = function(){
+    menu.mobileMenu.classList.toggle('show');
 }
 
-label.addEventListener('click', function(event){    
-    showMenu(event.target)
+menu.label.addEventListener('click', function(event){    
+    menu.showMenu(event.target)
 
-})
+})  
+}
+
+menu.init();
+
+
+
 
